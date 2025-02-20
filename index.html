@@ -1,178 +1,248 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>WEb</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freda's Cereals - Natural Goodness for All Ages</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="min-h-screen bg-white">
+      <!-- Hero Section -->
+      <section class="relative h-screen flex items-center justify-center">
+        <div 
+          class="absolute inset-0 z-0 bg-cover bg-center brightness-50"
+          style="background-image: url('https://images.unsplash.com/photo-1568031813264-d394c5d474b9?auto=format&fit=crop&q=80')"
+        ></div>
+        <div class="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">Nourishing Generations with Natural Goodness</h1>
+          <p class="text-lg md:text-xl lg:text-2xl mb-6 md:mb-8">Premium cereals crafted with care for both babies and adults</p>
+          <button class="bg-yellow-500 text-gray-900 px-6 md:px-8 py-3 rounded-full text-base md:text-lg font-semibold hover:bg-yellow-400 transition-colors duration-300">
+            Discover Our Products
+          </button>
+        </div>
+      </section>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+      <!-- About Products Section -->
+      <section class="py-12 md:py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+          <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Why Choose Our Cereals?</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+            <div class="text-center">
+              <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i data-lucide="brain" class="w-8 h-8 text-yellow-600"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-4">Natural Ingredients</h3>
+              <p class="text-gray-600">Carefully selected grains and natural ingredients for optimal nutrition</p>
+            </div>
+            <div class="text-center">
+              <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i data-lucide="baby" class="w-8 h-8 text-yellow-600"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-4">Age-Appropriate</h3>
+              <p class="text-gray-600">Specially formulated for different age groups and dietary needs</p>
+            </div>
+            <div class="text-center">
+              <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i data-lucide="heart" class="w-8 h-8 text-yellow-600"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-4">Health-Focused</h3>
+              <p class="text-gray-600">Rich in essential nutrients for healthy growth and development</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Solid State</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+      <!-- About Innovator Section -->
+      <section class="py-12 md:py-20">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+            <div class="order-2 md:order-1">
+              <img 
+                src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?auto=format&fit=crop&q=80" 
+                alt="Freda Araba Obiri"
+                class="rounded-lg shadow-xl w-full"
+              />
+            </div>
+            <div class="order-1 md:order-2">
+              <h2 class="text-3xl md:text-4xl font-bold mb-6">Meet Freda Araba Obiri</h2>
+              <p class="text-gray-600 mb-6">
+                A passionate innovator from Sekondi-Takoradi, Western Region, Freda is dedicated to revolutionizing 
+                the cereal industry with nutritious options for everyone. Her vision stems from identifying the need 
+                for high-quality, versatile cereals that cater to both babies and adults.
+              </p>
+              <div class="flex items-center mb-4">
+                <i data-lucide="users" class="w-6 h-6 text-yellow-600 mr-3"></i>
+                <span>Innovator & Nutrition Enthusiast</span>
+              </div>
+              <div class="flex items-center">
+                <i data-lucide="map-pin" class="w-6 h-6 text-yellow-600 mr-3"></i>
+                <span>Sekondi-Takoradi, Western Region</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
+      <!-- Product Showcase -->
+      <section class="py-12 md:py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+          <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Our Products</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+              <img 
+                src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&q=80" 
+                alt="Baby Cereal"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Baby's First Cereal</h3>
+                <p class="text-gray-600">Gentle, easily digestible cereal perfect for introducing solid foods.</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+              <img 
+                src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&q=80" 
+                alt="Mixed Grain Cereal"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Mixed Grain Blend</h3>
+                <p class="text-gray-600">A nutritious mix of carefully selected grains for the whole family.</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+              <img 
+                src="https://images.unsplash.com/photo-1557800636-894a64c1696f?auto=format&fit=crop&q=80" 
+                alt="Adult Cereal"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Adult Wellness Cereal</h3>
+                <p class="text-gray-600">Premium blend with added nutrients for adult dietary needs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2>This is Solid State</h2>
-							<p>Another free + fully responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
-						</div>
-					</section>
+      <!-- Contact Section -->
+      <section class="py-12 md:py-20">
+        <div class="max-w-4xl mx-auto px-4">
+          <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Get in Touch</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+            <div>
+              <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+              <div class="space-y-4">
+                <div class="flex items-center">
+                  <i data-lucide="phone" class="w-6 h-6 text-yellow-600 mr-3"></i>
+                  <span>+233 (0) 20 123 4567</span>
+                </div>
+                <div class="flex items-center">
+                  <i data-lucide="mail" class="w-6 h-6 text-yellow-600 mr-3"></i>
+                  <span>contact@fredascereals.com</span>
+                </div>
+                <div class="flex items-center">
+                  <i data-lucide="map-pin" class="w-6 h-6 text-yellow-600 mr-3"></i>
+                  <span>Sekondi-Takoradi, Western Region, Ghana</span>
+                </div>
+                <div class="flex space-x-4 mt-6">
+                  <a href="#" class="text-gray-600 hover:text-yellow-600 transition-colors duration-300">
+                    <i data-lucide="facebook" class="w-6 h-6"></i>
+                  </a>
+                  <a href="#" class="text-gray-600 hover:text-yellow-600 transition-colors duration-300">
+                    <i data-lucide="instagram" class="w-6 h-6"></i>
+                  </a>
+                  <a href="#" class="text-gray-600 hover:text-yellow-600 transition-colors duration-300">
+                    <i data-lucide="twitter" class="w-6 h-6"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <form class="space-y-4" id="contactForm">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                <input
+                  type="text"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition duration-200"
+                  required
+                />
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                <input
+                  type="email"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition duration-200"
+                  required
+                />
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                <textarea
+                  rows="4"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 outline-none transition duration-200"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-yellow-500 text-white px-6 py-3 rounded-md hover:bg-yellow-600 transition-colors duration-300"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
 
-				<!-- Wrapper -->
-					<section id="wrapper">
-
-						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Magna arcu feugiat</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
-									</div>
-								</div>
-							</section>
-
-						<!-- Two -->
-							<section id="two" class="wrapper alt spotlight style2">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Tempus adipiscing</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
-									</div>
-								</div>
-							</section>
-
-						<!-- Three -->
-							<section id="three" class="wrapper spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Nullam dignissim</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
-									</div>
-								</div>
-							</section>
-
-						<!-- Four -->
-							<section id="four" class="wrapper alt style1">
-								<div class="inner">
-									<h2 class="major">Vitae phasellus</h2>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3 class="major">Ante fermentum</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<h3 class="major">Fusce consequat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-									</section>
-									<ul class="actions">
-										<li><a href="#" class="button">Browse All</a></li>
-									</ul>
-								</div>
-							</section>
-
-					</section>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-							<ul class="contact">
-								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
-								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+      <!-- Footer -->
+      <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div>
+              <h4 class="text-xl font-semibold mb-4">Freda's Cereals</h4>
+              <p class="text-gray-400">Nourishing generations with natural goodness and care.</p>
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold mb-4">Quick Links</h4>
+              <ul class="space-y-2 text-gray-400">
+                <li><a href="#" class="hover:text-yellow-500 transition-colors duration-300">Home</a></li>
+                <li><a href="#" class="hover:text-yellow-500 transition-colors duration-300">About Us</a></li>
+                <li><a href="#" class="hover:text-yellow-500 transition-colors duration-300">Products</a></li>
+                <li><a href="#" class="hover:text-yellow-500 transition-colors duration-300">Contact</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold mb-4">Products</h4>
+              <ul class="space-y-2 text-gray-400">
+                <li><a href="#" class="hover:text-yellow-500 transition-colors duration-300">Baby Cereals</a></li>
+                <li><a href="#" class="hover:text-yellow-500 transition-colors duration-300">Adult Cereals</a></li>
+                <li><a href="#" class="hover:text-yellow-500 transition-colors duration-300">Special Blends</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold mb-4">Newsletter</h4>
+              <p class="text-gray-400 mb-4">Subscribe to get updates on new products and promotions.</p>
+              <form class="flex flex-col sm:flex-row gap-2">
+                <input
+                  type="email"
+                  placeholder="Your email"
+                  class="flex-1 px-4 py-2 rounded-md text-gray-900 outline-none focus:ring-2 focus:ring-yellow-500"
+                  required
+                />
+                <button class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 transition-colors duration-300 whitespace-nowrap">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>&copy; 2024 Freda's Cereals. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/src/main.js"></script>
+  </body>
 </html>
