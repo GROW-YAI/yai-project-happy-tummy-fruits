@@ -106,3 +106,19 @@ if (newsletterForm) {
     alert('Thank you for subscribing to our newsletter!');
   });
 }
+// Toggle details on "View More" button click
+document.querySelectorAll('.view-more-btn').forEach(button => {
+  button.addEventListener('click', (e) => {
+    // Close all other product details
+    document.querySelectorAll('.product-details').forEach(details => {
+      if(details !== button.nextElementSibling) {
+        details.classList.add('hidden');
+      }
+    });
+    
+    // Toggle current product details
+    const details = button.nextElementSibling;
+    details.classList.toggle('hidden');
+    button.textContent = details.classList.contains('hidden') ? 'View More' : 'View Less';
+  });
+});

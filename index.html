@@ -151,44 +151,78 @@
         </div>
       </section>
 
-      <!-- Product Showcase -->
+      <!-- Products Section -->
       <section id="products" class="py-12 md:py-20 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4">
           <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Our Products</h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+          
+            <!-- Product Card 1 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 min-h-0">
               <img 
                 src="./Assets/images/Coconut-pouch-front-design-with.webp" 
                 alt="Baby Cereal"
                 class="w-full h-48 object-contain"
               />
-              <div class="p-6">
+              <div class="p-6 overflow-hidden transition-all duration-300">
                 <h3 class="text-xl font-semibold mb-2">Baby's First Cereal</h3>
-                <p class="text-gray-600">Gentle, easily digestible cereal perfect for introducing solid foods.</p>
+                <p class="text-gray-600 mb-4">Gentle, easily digestible cereal perfect for introducing solid foods.</p>
+                <button class="view-more-btn bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-200">
+                  View More
+                </button>
+                <div class="product-details hidden mt-4">
+                  <p class="text-gray-700 mb-4">Contains: Organic oats, coconut milk powder, vitamins. Suitable for 6+ months.</p>
+                  <a href="/cart" class="buy-now-btn bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition duration-200 block text-center">
+                    Buy Now
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+      
+            <!-- Product Card 2 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 min-h-0">
               <img 
                 src="./Assets/images/Banana-Pouch-design-112-1-742x10.webp" 
                 alt="Mixed Grain Cereal"
                 class="w-full h-48 object-contain"
               />
-              <div class="p-6">
+              <div class="p-6 overflow-hidden transition-all duration-300">
                 <h3 class="text-xl font-semibold mb-2">Mixed Grain Blend</h3>
-                <p class="text-gray-600">A nutritious mix of carefully selected grains for the whole family.</p>
+                <p class="text-gray-600 mb-4">A nutritious mix of carefully selected grains for the whole family.</p>
+                <button class="view-more-btn bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-200">
+                  View More
+                </button>
+                <div class="product-details hidden mt-4">
+                  <p class="text-gray-700 mb-4">Contains: Quinoa, millet, brown rice, chia seeds. Rich in fiber and protein.</p>
+                  <a href="/cart" class="buy-now-btn bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition duration-200 block text-center">
+                    Buy Now
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+      
+            <!-- Product Card 3 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 min-h-0">
               <img 
                 src="./Assets/images/tigernut-pouch-front-design-new.webp" 
                 alt="Adult Cereal"
                 class="w-full h-48 object-contain"
               />
-              <div class="p-6">
+              <div class="p-6 overflow-hidden transition-all duration-300">
                 <h3 class="text-xl font-semibold mb-2">Adult Wellness Cereal</h3>
-                <p class="text-gray-600">Premium blend with added nutrients for adult dietary needs.</p>
+                <p class="text-gray-600 mb-4">Premium blend with added nutrients for adult dietary needs.</p>
+                <button class="view-more-btn bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-200">
+                  View More
+                </button>
+                <div class="product-details hidden mt-4">
+                  <p class="text-gray-700 mb-4">Contains: Tiger nuts, almonds, flaxseeds, probiotics. Supports gut health.</p>
+                  <a href="/cart" class="buy-now-btn bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition duration-200 block text-center">
+                    Buy Now
+                  </a>
+                </div>
               </div>
             </div>
+      
           </div>
         </div>
       </section>
