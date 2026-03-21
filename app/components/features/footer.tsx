@@ -1,35 +1,35 @@
-"use client";
-
-import Link from "next/link";
-
 export default function Footer() {
     return (
-        <footer className="bg-gray-900 text-white py-8">
-            <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <footer className="bg-gray-900 text-white py-12">
+            <div className="max-w-6xl mx-auto px-4">
+                {/* Centered grid with only 3 columns */}
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
                     <div>
-                        <h3 className="text-lg font-semibold mb-4">My Website</h3>
-                        <p className="text-gray-400">
-                            Providing accessible solutions for everyone.
-                        </p>
+                        <h4 className="text-xl font-semibold mb-4">Happy Tummy Foods</h4>
+                        <p className="text-gray-400">Nourishing generations with natural goodness and care.</p>
                     </div>
                     <div>
-                        <h4 className="text-md font-semibold mb-4">Quick Links</h4>
+                        <h4 className="text-xl font-semibold mb-4">Quick Links</h4>
                         <ul className="space-y-2 text-gray-400">
-                            <li><Link href="/" className="hover:text-white">Home</Link></li>
-                            <li><Link href="/about" className="hover:text-white">About Us</Link></li>
-                            <li><Link href="/products" className="hover:text-white">Products</Link></li>
-                            <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
+                            <li><a href="#home" className="hover:text-yellow-500 transition-colors duration-300">Home</a></li>
+                            <li><a href="#about" className="hover:text-yellow-500 transition-colors duration-300">About Us</a></li>
+                            <li><a href="#products" className="hover:text-yellow-500 transition-colors duration-300">Products</a></li>
+                            <li><a href="#contact" className="hover:text-yellow-500 transition-colors duration-300">Contact</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h4 className="text-md font-semibold mb-4">Contact</h4>
-                        <p className="text-gray-400">Email: contact@mywebsite.com</p>
-                        <p className="text-gray-400">Phone: +1 (555) 123-4567</p>
+                        <h4 className="text-xl font-semibold mb-4">Products</h4>
+                        <ul className="space-y-2 text-gray-400">
+                            <li><a href="#products" className="hover:text-yellow-500 transition-colors duration-300">Baby Cereals</a></li>
+                            <li><a href="#products" className="hover:text-yellow-500 transition-colors duration-300">Adult Cereals</a></li>
+                            <li><a href="#products" className="hover:text-yellow-500 transition-colors duration-300">Special Blends</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div className="border-t border-gray-800 mt-8 pt-4 text-center text-gray-400">
-                    <p>&copy; 2024 My Website. All rights reserved.</p>
+
+                {/* Bottom copyright */}
+                <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                    <p>&copy; 2024 Happy Tummy Foods. All rights reserved.</p>
                 </div>
             </div>
         </footer>

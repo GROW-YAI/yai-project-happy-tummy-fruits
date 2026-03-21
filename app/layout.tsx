@@ -5,8 +5,8 @@ import Footer from "./components/features/footer";
 import BoafoWidgetInitializer from "./components/BoafoWidgetInitializer";
 
 export const metadata: Metadata = {
-    title: "My Website",
-    description: "Accessibility powered by Boafo",
+    title: "Happy Tummy Foods - Natural Goodness for All Ages",
+    description: "Premium cereals crafted with care for both babies and adults",
 };
 
 export default function RootLayout({

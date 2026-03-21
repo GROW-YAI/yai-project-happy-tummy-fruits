@@ -1,21 +1,2 @@
-[00:00:03.602] Server  LOG     
-[00:00:03.612] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:03.614] Server  LOG       The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:03.616] Server  LOG       	- allowJs was set to true
-[00:00:03.618] Server  LOG       	- incremental was set to true
-[00:00:03.618] Server  LOG       	- include was updated to add '.next/types/**/*.ts'
-[00:00:03.619] Server  LOG       	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:03.620] Server  LOG       	- plugins was updated to add { name: 'next' }
-[00:00:03.620] Server  LOG       	- exclude was set to ['node_modules']
-[00:00:03.621] Server  LOG     
-[00:00:03.621] Server  LOG       The following mandatory changes were made to your tsconfig.json:
-
-[00:00:03.622] Server  LOG       	- isolatedModules was set to true (requirement for SWC / Babel)
-[00:00:03.622] Server  LOG     
-[00:00:04.440] Server  LOG     ✓ Ready in 3.3s
-[00:00:14.142] Server  LOG     ○ Compiling / ...
-[00:00:20.194] Server  WARN    ⚠ Cross origin request detected from 192.168.90.140 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:20.395] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:47.272] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.876] Server  LOG     ✓ Ready in 1882ms
+[00:00:08.802] Server  LOG     ○ Compiling / ...

@@ -16,7 +16,9 @@
 		"typescript": "^5.9.3"
 	},
 	"scripts": {
-		"dev": "browser-sync start --server --files '**/*.html, **/*.css, **/*.js'",
-		"dev:serve": "serve ."
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
 	}
 }
