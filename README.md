@@ -84,8 +84,8 @@ The following environment variables are required:
 
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `NEXT_PUBLIC_BOAFO_API_KEY` | Primary Boafo widget API key | `boafo_5678` |
-| `NEXT_PUBLIC_BOAFO_API_KEY_ALT` | Alternative API key (for testing) | `boafo_1234` |
+| `NEXT_PUBLIC_BOAFO_API_KEY` | Primary Boafo widget API key | `XXXXXXX` |
+
 
 **Important:** Never commit your `.env` file to version control. It's already added to `.gitignore`.
 
