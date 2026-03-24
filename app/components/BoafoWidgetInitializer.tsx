@@ -6,8 +6,8 @@ import { initializeBoafoWidget } from "boafo-accessibility-widget";
 export default function BoafoWidgetInitializer() {
     useEffect(() => {
         try {
-            // Replace with your actual API key from Boafo dashboard
-            const BOAFO_API_KEY = "boafo_5678";
+            // API key from environment variable
+            const BOAFO_API_KEY = process.env.NEXT_PUBLIC_BOAFO_API_KEY;
             if (BOAFO_API_KEY && typeof window !== "undefined") {
                 initializeBoafoWidget(BOAFO_API_KEY);
             }
