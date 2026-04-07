@@ -96,38 +96,6 @@ The following environment variables are required:
 - Use different API keys for development and production environments
 - Keep your API keys confidential and never expose them in client-side code
 
-##  Available Scripts
-
-```bash
-# Development
-pnpm dev          # Start development server
-pnpm build        # Build for production
-pnpm start        # Start production server
-
-# Linting
-pnpm lint         # Run ESLint
-```
-
-##  Project Structure
-
-```
-├── app/
-│   ├── components/
-│   │   ├── features/
-│   │   │   ├── navbar.tsx
-│   │   │   └── footer.tsx
-│   │   └── BoafoWidgetInitializer.tsx
-│   ├── page.tsx
-│   ├── layout.tsx
-│   ├── about/
-│   ├── contact/
-│   └── products/
-├── public/
-│   └── Assets/
-├── .env
-├── .gitignore
-└── package.json
-```
 
 ##  Contributing
 
